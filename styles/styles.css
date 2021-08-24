@@ -19,7 +19,7 @@ p
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    
+    top: 0;
 }
 #navbar a
 {
@@ -36,14 +36,20 @@ p
     width: 768;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.3fr;
+    grid-template-rows: 1fr 1fr 1fr 0.15fr;
 }
 
 #row1
 {
     background-color: rgb(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#row1 p
+{
     text-align: center;
-    padding-top: 3rem;
 }
 
 #row1 h1
@@ -61,7 +67,7 @@ p
 }
 #row2
 {
-    background-color: blue;
+    background-color: rgba(6, 70, 87, 0.8);
 }
 
 #row2 h1
@@ -74,16 +80,31 @@ p
     text-align: center;
     width: 30%;
     margin: 0 auto;
+    padding-top: 50px;
+    
     
 }
 #row3
 {
-    background-color: red;
+    background-color: rgb(0,0,0,0.8);
 }
+
+#row3-header
+{
+    color: white;
+    text-align: center;
+}
+
+#row3-header h1
+{
+    font-size: 40px;
+}
+
 
 #row4
 {
-    background-color: purple;
+    border-top: 3px solid red;
+    background-color: rgb(0,0,0,0.8);
 }
 /*Class Selectors (.)*/
 
