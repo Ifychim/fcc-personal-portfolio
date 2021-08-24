@@ -12,7 +12,13 @@ p
 /*ID Selectors (#)*/
 #navbar
 {
-    background-color: red;
+    background-color: rgb(170, 0, 0, 0.75);
+    height: 70px;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    
 }
 #navbar a
 {
@@ -20,12 +26,16 @@ p
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
+    padding: 20px;
+    margin-right: 20px;
 }
 #main-container
-{
+{   
+    height: 1366px;
+    width: 768;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 0.4fr;
 }
 
 #row1
@@ -37,6 +47,7 @@ p
 #row1 h1
 {
     color: white;
+    font-size: 40px;
 }
 
 #row1 p
@@ -44,6 +55,7 @@ p
     color: red;
     font-style: italic;
     font-weight:500;
+    font-size: 25px;
 }
 #row2
 {
@@ -74,5 +86,9 @@ p
 /*Class Selectors (.)*/
 
 /*Pseudo ClassSelectors (x:y)*/
-
+#navbar a:hover
+{
+    color: black;
+    transition: all 100ms ease-in;
+}
 /*Media Queries ( @media (x){ #y{} } )*/
