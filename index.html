@@ -8,22 +8,13 @@
     </head>
 
     <body>
-        <!--Add navbar here. 
-            Position fixed. 
-            UL with flex box design
-            Each anchor tag should navigate to a section of the page.
-        -->
+
         <nav id="navbar">
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Contact</a>
+            <a href="#row3">About</a>
+            <a href="#projects">Work</a>
+            <a href="#row3">Contact</a>
         </nav>
         
-        <!--Grid Layout
-            1 Column, 4 rows
-            Row 2 should have a 3 column 2 row grid.
-            Row 3 should use flex box
-        --> 
         <main id="main-container">
 
             <div id="row1">
@@ -37,49 +28,50 @@
             <div id="row2">
 
                 <div id="row2-header" ><h1>These are some of my projects</h1></div>
-                <!--add 2(row)x3(col) grid here-->
+                <!--add 2(row)x2(col) grid here-->
                 <div id="projects">
                     <section class="projects-title project1"></section>
                     <section class="projects-title project2"></section>
                     <section class="projects-title project3"></section>
                     <section class="projects-title project4"></section>
-                    <section class="projects-title project5"></section>
-                    <section class="projects-title project6"></section>
                 </div>
                 
             </div>
 
-            <!--use flex box here-->
+            
             <div id="row3">
                 <div id="row3-header">
                     <h1>Lets work together...</h1>
                     <p>How do you take your coffee?</p>
                 </div>
 
-                <div class="profile-link github">
-                    <img>
-                    <p></p>
+                <!--use flex box here-->
+                <div id="row3-flex-container">
+                    <div class="profile-link github">
+                        <img>
+                        <p></p>
+                    </div>
+
+                    <div class="profile-link linkedin">
+                        <img>
+                        <p></p>
+                    </div>
+
+
+                    <div class="profile-link cell-phone">
+                        <img>
+                        <p></p>
+                    </div>
+
+
+                    <div class="profile-link email">
+                        <img>
+                        <p></p>
+                    </div>
                 </div>
 
-                <div class="profile-link linkedin">
-                    <img>
-                    <p></p>
-                </div>
-
-
-                <div class="profile-link cell-phone">
-                    <img>
-                    <p></p>
-                </div>
-
-
-                <div class="profile-link email">
-                    <img>
-                    <p></p>
-                </div>
             </div>
             
-            <!--Possibly use flexbox here.-->
             <div id="row4">
                 <footer id="main-footer">
                     <p>This portfolio has been created by Uchenna Chima and lists projects which he has done.</p>
