@@ -1,7 +1,32 @@
 /*General Selectors*/
 
 /*ID Selectors (#)*/
+#main-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+}
 
+#row1
+{
+    background-color: gray;
+}
+
+#row2
+{
+    background-color: blue;
+}
+
+#row3
+{
+    background-color: red;
+}
+
+#row4
+{
+    background-color: purple;
+}
 /*Class Selectors (.)*/
 
 /*Pseudo ClassSelectors (x:y)*/
