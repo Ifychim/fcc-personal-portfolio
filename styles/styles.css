@@ -92,12 +92,27 @@ p
 #row3-header
 {
     color: white;
-    text-align: center;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red solid 3px;
+    padding-left: 120px;
+    padding-top: 15%;
 }
 
 #row3-header h1
 {
     font-size: 40px;
+}
+#row3-header p
+{   
+    position: relative;
+    top: 60px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    right: 300px;
+    font-style: italic;
 }
 
 
