@@ -12,8 +12,9 @@ p
 /*ID Selectors (#)*/
 #navbar
 {
-    background-color: rgb(170, 0, 0, 0.75);
+    background-color: rgb(170, 0, 0, 1);
     height: 70px;
+    width: 99.15%;
     font-size: larger;
     display: flex;
     justify-content: flex-end;
@@ -31,17 +32,18 @@ p
 }
 #main-container
 {   
-    height: 1366px;
+    height: 2500px;
     width: 768;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 0.4fr;
+    grid-template-rows: 1fr 1fr 1fr 0.3fr;
 }
 
 #row1
 {
     background-color: rgb(0,0,0,0.8);
     text-align: center;
+    padding-top: 3rem;
 }
 
 #row1 h1
