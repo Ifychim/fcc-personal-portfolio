@@ -136,7 +136,39 @@ p
     color: white;
     text-align: center;
 }
+
+#projects
+{
+    display: grid;
+    grid-template-columns: 325px 325px;
+    grid-template-rows: 320px 320px;
+    grid-gap: 30px;
+    border: solid black 4px;
+    padding-left: 30%;
+}
 /*Class Selectors (.)*/
+
+.projects-title
+{
+    background-color: yellow;
+    margin-bottom: 30px;
+   
+    
+ 
+}
+
+.projects-title-description
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    position:relative;
+    top: 245px;
+    height: 30px;
+    background-color: rgb(41, 1, 41);
+}
 
 /*Pseudo ClassSelectors (x:y)*/
 #navbar a:hover
