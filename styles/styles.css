@@ -93,12 +93,15 @@ p
 {
     color: white;
    
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
-    border: red solid 3px;
     padding-left: 120px;
+    padding-top: 15%;*/
     padding-top: 15%;
+    border: red solid 3px;
+    text-align: center;
+
 }
 
 #row3-header h1
@@ -107,12 +110,14 @@ p
 }
 #row3-header p
 {   
-    position: relative;
+    font-style: italic;
+    margin-top: -10px;
+   /* position: relative;
     top: 60px;
     margin-bottom: 60px;
     overflow: hidden;
     right: 300px;
-    font-style: italic;
+    */
 }
 
 
